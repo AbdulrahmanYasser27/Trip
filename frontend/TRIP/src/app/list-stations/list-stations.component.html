@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<h2>Admin List</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Station name</th>
+            <th>Actions</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let station of stations">
+            
+            <td>{{ station.id}}</td>
+            <td>{{ station.name}}</td>
+            <td>
+                <button (click)="updateStation(station.id)"
+                class="btn-btn-info">
+                Update
+                </button>
+
+                <button (click)="deleteStation(station.id)"
+                class="btn-btn-info" style="margin-left: 20px;">
+                delete
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>

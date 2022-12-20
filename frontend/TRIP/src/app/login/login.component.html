@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Login</title>
+</head>
+<body>
+    
+    <div class="signupFrm">
+        <section action="" class="form">
+            <h1 style="font-size:larger ; text-align: center;color: black;">Welcome To Your Trip </h1>
+          <h2 class="title">Login</h2>
+    
+          <div class="inputContainer">
+            <input [(ngModel)]="admin.email" email = "email" type="email" class="input" placeholder="a">
+            <label for="" class="label">Email</label>
+          </div>
+    
+    
+          <div class="inputContainer">
+            <input [(ngModel)]="admin.password" password = "password" type="password" class="input" placeholder="a">
+            <label for="" class="label">Password</label>
+          </div>
+    
+
+          <input (click)="login()" type="submit" class="submitBtn" value="Login">
+          <div class="checkbox-text">
+            <div class="checkbox-content">
+                <input type="checkbox" id="logCheck">
+                <label for="logCheck" class="text">Remember me</label>
+            </div>
+            
+            <a href="#" class="text">Forgot password?</a>
+        </div>
+          <div class="login-signup">
+            <span class="text">Not a member?
+                <a href="http://localhost:4200/signup" class="text signup-link">Signup Now</a>
+            </span>
+        </div>
+        </section>
+      </div>
+</body>
+</html>

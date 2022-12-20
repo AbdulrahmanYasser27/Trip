@@ -1,0 +1,28 @@
+2022-11-30 10:55:53,422 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-11-30 10:55:53,422 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2022-11-30 10:55:53,422 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: Version 5.5
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: java.version=1.8.0_351
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: os.name=Windows 10
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: os.arch=x86
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: os.version=10.0
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: java.awt.headless=null
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: Available Processors =8
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: JMeterHome=C:\Users\Data\Desktop\project_tools_Trip\el7\demo\apache-jmeter-5.5\apache-jmeter-5.5
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: user.dir  =C:\Users\Data\Desktop\project_tools_Trip\el7\demo\apache-jmeter-5.5\apache-jmeter-5.5\bin
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: PWD       =C:\Users\Data\Desktop\project_tools_Trip\el7\demo\apache-jmeter-5.5\apache-jmeter-5.5\bin
+2022-11-30 10:55:53,438 INFO o.a.j.JMeter: IP: 172.27.16.1 Name: DESKTOP-IA8PNJG FullName: DESKTOP-IA8PNJG.mshome.net
+2022-11-30 10:55:53,454 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-11-30 10:55:53,626 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2022-11-30 10:56:14,523 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-30 10:56:14,523 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-30 10:56:14,523 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-30 10:56:14,523 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-30 10:56:14,523 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-11-30 10:56:14,523 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
