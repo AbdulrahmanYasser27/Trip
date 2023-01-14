@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-deployment
+  labels:
+    app: frontend-deployment
+
+spec:
+  selector:
+    matchLabels:
+      app: angular-deployment
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: angular-deployment
+    spec:
+      containers:
+        - name: tool-frontend
+          image: quay.io/20196007/ahmed-ebed:frontend
+          ports:
+            - containerPort: 8080
+
+---
+apiVersion: v1 # Kubernetes API version
+kind: Service # Kubernetes resource kind we are creating
+metadata: # Metadata of the resource kind we are creating
+  name: angular-svc
+spec:
+  selector:
+    app: angular-deployment
+
+  ports:
+    - protocol: "TCP"
+      port: 8080 # The port that the service is running on in the cluster
+      targetPort: 8080 # The port exposed by the service
