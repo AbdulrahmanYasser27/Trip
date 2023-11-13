@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<h2>Admin List</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Email</th>
+            <th>admin_Name</th>
+            <th>Actions</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let admin of admins">
+            
+            <td>{{ admin.id}}</td>
+            <td>{{ admin.email}}</td>
+            <td>{{ admin.admin_Name}}</td>
+            <td>
+                <button (click)="updateAdmin(admin.id)"
+                class="btn-btn-info">
+                Update
+                </button>
+
+                <button (click)="deleteAdmin(admin.id)"
+                class="btn-btn-info" style="margin-left: 20px;">
+                delete
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>

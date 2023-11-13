@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>trip</title>
+</head>
+<body>
+    <div class="signupFrm">
+      <section>
+        <section action="" class="form" >
+          <h1 class="title">Update Trip</h1>
+        
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="a"
+            [(ngModel)]="trip.from_station" from_station="from_station"
+            >
+            <label for="" class="label">From station</label>
+          </div>
+
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="a"
+            [(ngModel)]="trip.to_station" to_station="to_station"
+            >
+            <label for="" class="label">To station</label>
+          </div>
+
+
+          <div class="inputContainer">
+            <input type="date" class="input" placeholder="a"
+            [(ngModel)]="trip.departure_time" departure_time="departure_time"
+            >
+            <label for="" class="label">Departure time</label>
+          </div>
+
+
+          <div class="inputContainer">
+            <input type="date" class="input" placeholder="a"
+            [(ngModel)]="trip.arrival_time" arrival_time="arrival_time"
+            >
+            <label for="" class="label">Arrival time</label>
+          </div>
+
+          <button type="submit" class="submitBtn" value="Sign up" (click)="onSubmit()" > Update Trip </button>
+        </section>
+        </section>
+      </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Signup</title>
+</head>
+<body>
+    <div class="signupFrm">
+      <section>
+        <section action="" class="form" >
+          <h1 class="title">Sign up</h1>
+    
+          <div class="inputContainer">
+            <input type="email" class="input" placeholder="a"
+            [(ngModel)]="admin.email" email="email"
+            >
+            <label for="" class="label">Email</label>
+            
+          </div>
+    
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="a"
+            [(ngModel)]="admin.admin_Name" admin_Name="admin_Name"
+            >
+            <label for="" class="label">admin_Name</label>
+          </div>
+    
+          <div class="inputContainer">
+            <input type="password" class="input" placeholder="a"
+            [(ngModel)]="admin.password" name="Password"
+            >
+            <label for="" class="label">Password</label>
+            
+          </div>
+    
+          <div class="inputContainer">
+            <input type="password" class="input" placeholder="a"
+            [(ngModel)]="admin.password" name="Password"
+            >
+            <label for="" class="label">Confirm Password</label>
+          </div>
+    
+          <button type="submit" class="submitBtn" value="Sign up" (click)="onSubmit()" > Signup </button>
+        
+        <div class="login-signup">
+          <span class="text">Not a member?
+              <a href="http://localhost:4200/login" class="text login-link">Login</a>
+          </span>
+      </div>
+    </section>
+      </section>
+      </div>
+</body>
+</html>

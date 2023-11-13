@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<h2>Admin List</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>From Station</th>
+            <th>To Station</th>
+            <th>Departure time</th>
+            <th>Arrival time</th>
+            <th>Actions</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let trip of trips">
+            
+            <td>{{ trip.id}}</td>
+            <td>{{ trip.from_station}}</td>
+            <td>{{ trip.to_station}}</td>
+            <td>{{ trip.departure_time}}</td>
+            <td>{{ trip.arrival_time}}</td>
+            <td>
+                <button (click)="updateTrip(trip.id)"
+                class="btn-btn-info">
+                Update
+                </button>
+
+                <button (click)="deleteTrip(trip.id)"
+                class="btn-btn-info" style="margin-left: 20px;">
+                delete
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
